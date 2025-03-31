@@ -17,6 +17,7 @@
     --backgroundOpacity: .65;
     --backgroundCode: rgba(0, 0, 0, .5);
     --backgroundName: rgba(0, 0, 0, .5);
+    --background-hue-rotate: 50deg;
 }
 
 .appMount__51fd7,
@@ -31,7 +32,7 @@ body {
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur)) hue-rotate(50deg)
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
 }
 
 .members_c8ffbb,
