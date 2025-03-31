@@ -31,7 +31,7 @@ body {
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur))
+    filter: blur(var(--backgroundBlur)) hue-rotate(50deg)
 }
 
 .members_c8ffbb,
