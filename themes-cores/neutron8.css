@@ -17,7 +17,9 @@
     --backgroundOpacity: .65;
     --backgroundCode: rgba(0, 0, 0, .5);
     --backgroundName: rgba(0, 0, 0, .5);
-    --background-hue-rotate: 50deg;
+    --backgroundHueShift: 50deg;
+    --backgroundSaturation: 100%;
+    --backgroundBrightness: 100%;
 }
 
 .appMount__51fd7,
@@ -32,7 +34,7 @@ body {
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--backgroundHueShift)) brightness(var(--backgroundBrightness)) saturate(var(--backgroundSaturation));
 }
 
 .members_c8ffbb,
@@ -671,7 +673,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     opacity: .65;
-    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--backgroundHueShift)) brightness(var(--backgroundBrightness)) saturate(var(--backgroundSaturation));
     z-index: 0
 }
 
@@ -3437,7 +3439,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--backgroundHueShift)) brightness(var(--backgroundBrightness)) saturate(var(--backgroundSaturation));
 }
 .visual-refresh .chatContent_f75fb0{background: transparent;}
 .visual-refresh .container__7641b{background: transparent;}
