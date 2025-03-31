@@ -671,7 +671,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     opacity: .65;
-    filter: blur(var(--backgroundBlur));
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
     z-index: 0
 }
 
@@ -3437,7 +3437,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
     opacity: var(--backgroundOpacity);
-    filter: blur(var(--backgroundBlur))
+    filter: blur(var(--backgroundBlur)) hue-rotate(var(--background-hue-rotate));
 }
 .visual-refresh .chatContent_f75fb0{background: transparent;}
 .visual-refresh .container__7641b{background: transparent;}
