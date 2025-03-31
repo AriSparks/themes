@@ -17,7 +17,7 @@
     --backgroundOpacity: .65;
     --backgroundCode: rgba(0, 0, 0, .5);
     --backgroundName: rgba(0, 0, 0, .5);
-    --backgroundHueShift: 50deg;
+    --backgroundHueShift: 0deg;
     --backgroundSaturation: 100%;
     --backgroundBrightness: 100%;
 }
